@@ -1,4 +1,16 @@
 $(document).ready(function() {
+    // Slider:
+    $("#content").slick({
+        infinite: true,
+        dots: false,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+    });
 
     // hover to "Shop Categories":
     $('.shop__categories').hover(function() {

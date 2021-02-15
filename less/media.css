@@ -37,6 +37,16 @@
     #full--page #content .content__block {
         background-position: center;
         background-size: cover;
+        height: 670px;
+    }
+    #full--page #content .content__block2 .content__title {
+        font-size: 28px;
+    }
+    #full--page #content .content__block2 .content__title span {
+        font-size: 36px;
+    }
+    #full--page #content .content__block2 .content__text {
+        padding: 30px 0;
     }
     .menu,
     .shop__categories,
@@ -244,6 +254,9 @@
     #full--page #categories .categories__container .categories__block:hover a .catgories__block__title {
         font-size: 22px;
     }
+    .extr {
+        order: -1;
+    }
 }
 @media screen and (max-width: 600px) {
     #full--page .modalWindow .modalContent {
@@ -298,6 +311,15 @@
     #full--page #footer .no--pad {
         padding: 16px 0 0;
     }
+    #full--page #content .content__block .content__btn {
+        position: absolute;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .content__btn2 {
+        bottom: -40px !important;
+    }
 }
 @media screen and (max-width: 450px) {
     #full--page .modalWindow .modalContent .modalTitle {
@@ -318,6 +340,9 @@
     }
     #full--page #categories .categories__container .categories__block:hover a .catgories__block__title {
         font-size: 18px;
+    }
+    .content__block2 .content__title span {
+        font-size: 32px !important;
     }
 }
 @media screen and (max-width: 380px) {

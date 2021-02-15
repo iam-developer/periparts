@@ -492,6 +492,9 @@ a:hover {
   z-index: 2;
   line-height: 25px;
 }
+#full--page #content .content__block #content__text {
+  color: #222;
+}
 #full--page #content .content__block .content__btn {
   font-family: "Montserrat-SemiBold";
   margin: 0px auto;
@@ -510,6 +513,25 @@ a:hover {
 }
 #full--page #content .content__block .content__btn:focus {
   outline: none;
+}
+#full--page #content .content__block2 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 115px 0;
+  background-color: #cccccc;
+  background-image: none;
+}
+#full--page #content .content__block2:before {
+  position: inherit;
+  width: 0;
+  height: 0;
+}
+#full--page #content .content__block2 .content__title {
+  color: #222;
+}
+#full--page #content .content__block2 .content__title span {
+  color: #fff;
 }
 #full--page #diagramm {
   padding: 20px 0;
