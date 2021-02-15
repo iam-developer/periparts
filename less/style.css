@@ -194,6 +194,10 @@ a:hover {
 #full--page #header .hidden__menu:hover {
   display: block !important;
 }
+#full--page #header .hidden__menu.hiddenActive {
+  width: auto !important;
+  height: auto !important;
+}
 #full--page #header .hidden__menu .drop__down svg {
   display: none;
   fill: #828282;

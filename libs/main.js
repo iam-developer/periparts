@@ -12,11 +12,13 @@ $(document).ready(function() {
         autoplaySpeed: 4000,
     });
 
-    // hover to "Shop Categories":
+// hover to "Shop Categories":
     $('.shop__categories').hover(function() {
         $('.hidden__menu').css('display', 'block');
+        $('.hidden__menu').toggleClass('hiddenActive')
     }, function() {
         $('.hidden__menu').css('display', 'none');
+        $('.hidden__menu').toggleClass('hiddenActive')
     });
     
     $('.dropdown__sub').hover(function() {
@@ -25,27 +27,15 @@ $(document).ready(function() {
         $(this).css('display', 'none');
     });
 
-    if( $(window).width() < 991) {
-        $('.dropdown__link').hover(function() {
-            $('#dropdown__sub').css('display', 'none');
-        });
-        $('.dropdown__link22').click(function() {
-        });
-    }
-    else {
-        $('#selling__brands').hover(function() {
-            $('#dropdown__sub').css('display', 'block');
-        }, function() {
-            $('#dropdown__sub').css('display', 'none');
-        });
-        
-        $('#other__brands').hover(function() {
-            $('#other__sub').css('display', 'block');
-        }, function() {
-            $('#other__sub').css('display', 'none');
-        });
-    }
 
+    if( $(window).width() > 991) {
+        $('.dropdown__menu222').hover(function() {
+            $(this).next().css('display', 'block');
+        }, function() {
+            $(this).next().css('display', 'none');
+        });
+    }
+ 
 // Click burger menu:
     $('.burger__menu').click(function() {
         $('.hidden__menu').toggleClass('activeClass');
@@ -72,7 +62,7 @@ $(document).ready(function() {
         $('body').css('overflow', 'auto');
     });
 
-// Hover:
+// Hover to blocks:
     $('.categories__block').hover(function() {
         $(this).find('.catgories__block__title').css('background', 'rgba(0, 0, 0, 0.5)');
     }, function() {
