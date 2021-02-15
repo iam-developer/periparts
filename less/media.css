@@ -241,6 +241,9 @@
         font-size: 20px;
         line-height: 22px;
     }
+    #full--page #categories .categories__container .categories__block:hover a .catgories__block__title {
+        font-size: 22px;
+    }
 }
 @media screen and (max-width: 600px) {
     #full--page .modalWindow .modalContent {
@@ -312,6 +315,9 @@
     #full--page #categories .categories__container .categories__block .catgories__block__title {
         font-size: 16px;
         line-height: 18px;
+    }
+    #full--page #categories .categories__container .categories__block:hover a .catgories__block__title {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 380px) {
