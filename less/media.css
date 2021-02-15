@@ -47,6 +47,48 @@
     .order--1 {
         width: 60%;
     }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__menu br {
+        display: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub {
+        display: none;
+        position: inherit;
+        right: auto;
+        left: 20px;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block {
+        margin: 0 40px 0 50px;
+        flex-direction: column;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__sub__link {
+        display: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__menu:hover {
+        border-left: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__menu {
+        border-left: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__menu .dropdown__link {
+        font-family: 'Montserrat-Bold';
+        font-size: 14px;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__sub__link .dropdown__link2 {
+        font-family: 'Montserrat-Bold';
+        border-left: none;
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgb(221, 221, 221);
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__sub__link .dropdown__link2:hover {
+        border-left: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__menu .dropdown__link {
+        border-left: none;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block .dropdown__menu {
+        margin: 0 0 10px 0;
+        border-left: none;
+    }
     .order--2 {
         -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
@@ -95,6 +137,9 @@
     #full--page #diagramm .col-lg-6 .diagramm__btn a {
         margin-left: 20px;
     }
+    #full--page #header .hidden__menu .drop__down .dropdown__arrow {
+        display: block !important;
+    }
     .block1 {
         grid-area: 1 / 1 / 2 / 2;
     }
@@ -131,6 +176,19 @@
     }
     #full--page #brands .categories__title {
         padding: 40px 0 20px;
+    }
+    .hidden__menu {
+        position: inherit !important;
+        width: 100% !important;
+        height: auto !important;
+        top: auto !important;
+        left: auto !important;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__menu {
+        width: auto;
+        margin: 20px 40px;
+        padding: 5px 0;
+        border-bottom: 1px solid rgb(221, 221, 221);
     }
 }
 @media screen and (max-width: 767px) {
@@ -185,6 +243,18 @@
     }
 }
 @media screen and (max-width: 576px) {
+    #full--page .header__nav .search .search__header::placeholder {
+        font-size: 14px;
+    }
+    #full--page .header__nav .search .search__header {
+        font-size: 12px;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__menu {
+        margin: 20px 10px;
+    }
+    #full--page #header .hidden__menu .drop__down .dropdown__sub .dropdown__sub__block {
+        margin: 0 10px 0 20px;
+    }
     .order--3 {
         width: 36%;
     }
@@ -224,5 +294,13 @@
     #full--page #categories .categories__container .categories__block .catgories__block__title {
         font-size: 16px;
         line-height: 18px;
+    }
+}
+@media screen and (max-width: 360px) {
+    #full--page .header__nav .search .search__header {
+        font-size: 12px;
+    }
+    #full--page .header__nav .search .search__header::placeholder {
+        font-size: 12px;
     }
 }
