@@ -1,10 +1,11 @@
 $(document).ready(function() {
+
+    // hover to "Shop Categories":
     $('.shop__categories').hover(function() {
         $('.hidden__menu').css('display', 'block');
     }, function() {
         $('.hidden__menu').css('display', 'none');
     });
-
     
     $('.dropdown__sub').hover(function() {
         $(this).css('display', 'block');
@@ -12,13 +13,11 @@ $(document).ready(function() {
         $(this).css('display', 'none');
     });
 
-
     if( $(window).width() < 991) {
         $('.dropdown__link').hover(function() {
             $('#dropdown__sub').css('display', 'none');
         });
         $('.dropdown__link22').click(function() {
-            // alert('Hello');
         });
     }
     else {
@@ -49,5 +48,15 @@ $(document).ready(function() {
         $(this).parent().next().toggleClass('showSub');
         $(this).prev().toggleClass('changeSubColor');
         $(this).toggleClass('rotateSubArrow');
+    });
+
+// Hover to "Sign in":
+    $('.sign__in ').click(function() {
+        $('.modalWindow').addClass('showModal');
+        $('body').css('overflow', 'hidden');
+    });
+    $('.closeModal ').click(function() {
+        $('.modalWindow').removeClass('showModal');
+        $('body').css('overflow', 'auto');
     });
 });

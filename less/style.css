@@ -80,6 +80,15 @@ a:hover {
   height: 100%;
   z-index: 999;
   background: rgba(0, 0, 0, 0.5);
+  transform: scale(1.2);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.4s;
+}
+#full--page .modalWindow.showModal {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
 }
 #full--page .modalWindow .modalContent {
   position: absolute;
@@ -87,11 +96,10 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 570px;
-  height: 420px;
   background: #fff;
   border-radius: 7px;
   z-index: 9999;
-  padding: 30px 50px 40px 40px;
+  padding: 50px 50px 50px 40px;
 }
 #full--page .modalWindow .modalContent .modalTitle {
   font-family: 'Montserrat-SemiBold';
@@ -110,7 +118,7 @@ a:hover {
   font-family: 'Montserrat-Regular';
 }
 #full--page .modalWindow .modalContent .modalField {
-  margin: 20px 0;
+  margin: 24px 0;
 }
 #full--page .modalWindow .modalContent .modalField .modalInput {
   font-family: "Montserrat-Regular";
@@ -122,6 +130,46 @@ a:hover {
 #full--page .modalWindow .modalContent .modalField .modalSearch {
   height: 34px;
   padding: 0 10px;
+}
+#full--page .modalWindow .modalContent .modalField1 {
+  margin-top: 60px;
+}
+#full--page .modalWindow .modalContent .modalLink a {
+  font-family: 'Montserrat-Bold';
+  font-size: 12px;
+  color: #ffa235;
+}
+#full--page .modalWindow .modalContent .modalLink span {
+  font-family: "Montserrat-Regular";
+  font-size: 12px;
+  color: #828282;
+}
+#full--page .modalWindow .modalContent .modalBtns {
+  margin: 60px 0 0;
+}
+#full--page .modalWindow .modalContent .modalBtns .modalButton:first-child {
+  font-family: 'Montserrat-Regular';
+  font-size: 17px;
+  height: 44px;
+  color: #ffa235;
+  border: 1px solid #ffa235;
+  border-radius: 5px;
+  background: transparent;
+  padding: 0 15px;
+}
+#full--page .modalWindow .modalContent .modalBtns .modalButton:last-child {
+  font-family: 'Montserrat-SemiBold';
+  background: #ffa235;
+  color: #ffffff;
+  font-size: 17px;
+  height: 44px;
+  border: 1px solid #ffa235;
+  border-radius: 5px;
+  margin-left: 8px;
+  padding: 0 15px;
+}
+#full--page .modalWindow .modalContent .modalBtns .modalButton:focus {
+  outline: none;
 }
 #full--page #header {
   position: relative;

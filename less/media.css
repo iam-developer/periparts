@@ -242,6 +242,12 @@
         line-height: 22px;
     }
 }
+@media screen and (max-width: 600px) {
+    #full--page .modalWindow .modalContent {
+        width: 420px;
+        padding: 22px;
+    }
+}
 @media screen and (max-width: 576px) {
     #full--page .header__nav .search .search__header::placeholder {
         font-size: 14px;
@@ -290,10 +296,27 @@
         padding: 16px 0 0;
     }
 }
+@media screen and (max-width: 450px) {
+    #full--page .modalWindow .modalContent .modalTitle {
+        font-size: 20px;
+    }
+    #full--page .modalWindow .modalContent .modalField .modalInput {
+        padding-right: 0;
+        width: 90px;
+    }
+    #full--page .modalWindow .modalContent {
+        width: 360px;
+    }
+}
 @media screen and (max-width: 400px) {
     #full--page #categories .categories__container .categories__block .catgories__block__title {
         font-size: 16px;
         line-height: 18px;
+    }
+}
+@media screen and (max-width: 380px) {
+    #full--page .modalWindow .modalContent {
+        width: 310px;
     }
 }
 @media screen and (max-width: 360px) {
@@ -302,5 +325,11 @@
     }
     #full--page .header__nav .search .search__header::placeholder {
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 330px) {
+    #full--page .modalWindow .modalContent {
+        width: 295px;
+        padding: 18px;
     }
 }
