@@ -59,4 +59,11 @@ $(document).ready(function() {
         $('.modalWindow').removeClass('showModal');
         $('body').css('overflow', 'auto');
     });
+
+// Hover:
+    $('.categories__block').hover(function() {
+        $(this).find('.catgories__block__title').css('background', 'rgba(0, 0, 0, 0.5)');
+    }, function() {
+        $(this).find('.catgories__block__title').css('background', 'transparent');
+    });
 });

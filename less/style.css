@@ -616,8 +616,13 @@ a:hover {
 }
 #full--page #categories .categories__container .categories__block .catgories__block__title {
   position: absolute;
-  bottom: 20px;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  padding-top: 60px;
+  height: 100%;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
