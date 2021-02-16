@@ -462,6 +462,7 @@ a:hover {
   position: relative;
   z-index: 1;
   width: 100%;
+  height: 555px;
   padding: 115px 0;
 }
 #full--page #content .content__block::before {

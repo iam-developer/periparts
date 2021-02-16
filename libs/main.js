@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    // Slider:
+// Slider:
     $("#content").slick({
         infinite: true,
         dots: false,
