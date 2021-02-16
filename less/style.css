@@ -68,7 +68,7 @@ a:hover {
   color: #adadad;
 }
 #full--page {
-  max-width: 1920px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
@@ -474,6 +474,9 @@ a:hover {
   height: 100%;
   z-index: 2;
   background: linear-gradient(130deg, rgba(0, 0, 0, 0.8) 40%, rgba(255, 255, 255, 0) 100%);
+}
+#full--page #content .content__block:focus {
+  outline: none;
 }
 #full--page #content .content__block .content__title {
   font-family: "Montserrat-ExtraBold";
