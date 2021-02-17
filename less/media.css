@@ -10,6 +10,9 @@
     #full--page .header__nav .search {
         width: 700px;
     }
+    #full--page #header .hidden__menu {
+        height: auto;
+    }
 }
 @media screen and (max-width: 1599px) {
     .container {
@@ -17,6 +20,11 @@
     }
     #full--page .header__nav .search {
         width: 650px;
+    }
+}
+@media screen and (max-width: 1492px) {
+    #full--page #header .hidden__menu {
+        height: 590px;
     }
 }
 @media screen and (max-width: 1370px) {
