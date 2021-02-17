@@ -7,10 +7,16 @@
     #full--page #content .content__block2 .extra_pad {
         padding-top: 80px;
     }
+    #full--page .header__nav .search {
+        width: 700px;
+    }
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1599px) {
     .container {
         max-width: 1360px;
+    }
+    #full--page .header__nav .search {
+        width: 650px;
     }
 }
 @media screen and (max-width: 1370px) {
@@ -19,6 +25,14 @@
     }
     #full--page #content .content__block2 .extra_pad {
         padding-top: 40px;
+    }
+    #full--page .header__nav .search {
+        width: 590px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #full--page .header__nav .search {
+        width: 530px;
     }
 }
 @media screen and (max-width: 1270px) {

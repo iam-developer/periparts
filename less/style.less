@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #e8e8e8 !important;
 }
 * {
   box-sizing: border-box;
@@ -374,7 +375,7 @@ a:hover {
     }
     .search {
       position: relative;
-      width: 540px;
+      width: 590px;
       span {
         position: absolute;
         top: 0;
@@ -540,13 +541,11 @@ a:hover {
           color: #fff;
         }
       }
-      .slide__img {
-       
-      }
     }
   }
   #diagramm {
     padding: 20px 0;
+    background: #fff;
     .col-lg-6 {
       padding: 50px 0;
       .diagramm__title {
@@ -800,7 +799,9 @@ a:hover {
       text-align: center;
       margin: 10px 0;
       transition: 0.1s;
+      filter: grayscale(1);
       &:hover {
+        filter: grayscale(0);
         box-shadow: rgba(31, 33, 43, 0.2) 0px 3px 20px 0px !important;
       }
     }
@@ -886,7 +887,7 @@ a:hover {
           border-radius: 0px 4px 4px 0;
           cursor: pointer;
           svg {
-            margin: 0 0px 14px 0px;
+            margin: 4px 0px 0px;
           }
         }
       }
@@ -900,6 +901,7 @@ a:hover {
     }
     .footer__logo {
       width: 160px;
+      filter: grayscale(1);
     }
     .text-right {
       padding-right: 0;

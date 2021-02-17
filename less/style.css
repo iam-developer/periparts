@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: #e8e8e8 !important;
 }
 * {
   box-sizing: border-box;
@@ -360,7 +361,7 @@ a:hover {
 }
 #full--page .header__nav .search {
   position: relative;
-  width: 540px;
+  width: 590px;
 }
 #full--page .header__nav .search span {
   position: absolute;
@@ -543,6 +544,7 @@ a:hover {
 }
 #full--page #diagramm {
   padding: 20px 0;
+  background: #fff;
 }
 #full--page #diagramm .col-lg-6 {
   padding: 50px 0;
@@ -755,8 +757,10 @@ a:hover {
   text-align: center;
   margin: 10px 0;
   transition: 0.1s;
+  filter: grayscale(1);
 }
 #full--page #brands .brands:hover {
+  filter: grayscale(0);
   box-shadow: rgba(31, 33, 43, 0.2) 0px 3px 20px 0px !important;
 }
 #full--page #brands .col-lg-2 {
@@ -877,7 +881,7 @@ a:hover {
   cursor: pointer;
 }
 #full--page #footer .footer__block2 .footer__input span svg {
-  margin: 0 0px 14px 0px;
+  margin: 4px 0px 0px;
 }
 #full--page #footer .no--pad {
   padding-left: 0;
@@ -890,6 +894,7 @@ a:hover {
 }
 #full--page #footer .footer__logo {
   width: 160px;
+  filter: grayscale(1);
 }
 #full--page #footer .text-right {
   padding-right: 0;
