@@ -83,6 +83,9 @@
         background-size: cover;
         height: 670px;
     }
+    #full--page .header__nav .header__right #quote__btn .korzina__container {
+        top: 10px;
+    }
     #full--page #content .content__block2 .content__title {
         font-size: 28px;
     }
@@ -313,6 +316,16 @@
     }
 }
 @media screen and (max-width: 576px) {
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal {
+        width: 360px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .product__info {
+        padding: 20px 10px 10px 0px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__product__name {
+        padding-left: 0;
+        font-size: 14px;
+    }
     .slide__img {
         width: 70%;
     }
@@ -400,6 +413,21 @@
     }
     .content__block2 .content__title span {
         font-size: 32px !important;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container {
+        right: -5px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal {
+        width: 300px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__product__name {
+        font-size: 12px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__btns .korzina__cancle {
+        font-size: 28px;
+    }
+    #full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__btns .korzina__cancle p {
+        font-size: 14px;
     }
 }
 @media screen and (max-width: 380px) {

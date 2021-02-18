@@ -457,6 +457,127 @@ a:hover {
 #full--page .header__nav .header__right .header__btn:focus {
   outline: none;
 }
+#full--page .header__nav .header__right #quote__btn {
+  position: relative;
+}
+#full--page .header__nav .header__right #quote__btn span {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 6px;
+  border: 2px solid #fff;
+  background-color: #f9612f;
+  border-radius: 50%;
+}
+#full--page .header__nav .header__right #quote__btn .korzina {
+  color: #828282;
+  font-size: 20px;
+  margin: 0 0 7px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container {
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.7);
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  top: 22px;
+  z-index: 99;
+  right: 0;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container.korzina__modal__show {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 0 4px #828282;
+  box-shadow: 0 0 4px #828282;
+  z-index: 99;
+  width: 460px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal::after {
+  content: '';
+  position: absolute;
+  right: 14px;
+  top: -20px;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .product__info {
+  padding: 20px 25px 20px 20px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__title {
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  color: #222;
+  padding: 12px 16px 7px;
+  border-bottom: 1px solid #dbdbdb;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__product__name {
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  color: #828282;
+  height: 33px;
+  padding-left: 20px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__btns .korzina__cancle {
+  border-right: 1px solid #dbdbdb;
+  padding: 0 7px;
+  cursor: pointer;
+  font-family: 'Montserrat-Regular';
+  font-size: 36px;
+  color: #828282;
+  height: 16px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__btns .korzina__cancle p {
+  margin: 0 5px 0 0;
+  font-size: 16px !important;
+  font-family: 'Montserrat-SemiBold';
+  color: #828282;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .korzina__btns .korzina__delete {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid #dbdbdb;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .goto__btn {
+  margin: 16px;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .goto__btn .go__to__quote {
+  text-align: center;
+  font-size: 14px;
+  padding: 8.5px 0px;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ffa235), color-stop(83.85%, #f9612f));
+  background: -o-linear-gradient(left, #ffa235 0%, #f9612f 83.85%);
+  background: linear-gradient(90deg, #ffa235 0%, #f9612f 83.85%);
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: 'Montserrat-SemiBold';
+  border: none;
+  transition: 0.3s;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .goto__btn .go__to__quote:focus {
+  outline: none;
+}
+#full--page .header__nav .header__right #quote__btn .korzina__container .korzina__modal .goto__btn .go__to__quote:hover {
+  -webkit-box-shadow: 0 2px 7px #858484;
+  box-shadow: 0 2px 7px #858484;
+}
 #full--page #content .content__block {
   background-image: url(../img/back_main2.webp);
   background-repeat: no-repeat;

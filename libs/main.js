@@ -68,4 +68,16 @@ $(document).ready(function() {
     }, function() {
         $(this).find('.catgories__block__title').css('background', 'transparent');
     });
+// Hover to Quote:
+    $('#quote__btn').hover(function() {
+        $('.korzina__container').addClass('korzina__modal__show');
+    }, function() {
+        $('.korzina__container').removeClass('korzina__modal__show');
+    });
+    
+    $('.korzina').hover(function() {
+        $('.korzina__container').addClass('korzina__modal__show');
+    }, function() {
+        $('.korzina__container').removeClass('korzina__modal__show');
+    });
 });

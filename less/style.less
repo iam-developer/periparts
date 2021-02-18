@@ -450,6 +450,134 @@ a:hover {
           outline: none;
         }
       }
+      #quote__btn {
+        // display: none;
+        position: relative;
+        span {
+          position: absolute;
+          top: -12px;
+          right: -12px;
+          font-size: 12px;
+          color: #fff;
+          padding: 0 6px;
+          border: 2px solid #fff;
+          background-color: #f9612f;
+          border-radius: 50%;
+        }
+        .korzina {
+          color: #828282;
+          font-size: 20px;
+          margin: 0 0 7px;
+        }
+        .korzina__container {
+          transition: .3s;
+          visibility: hidden;
+          opacity: 0;
+          transform: scale(0.7);
+          padding: 20px;
+          position: absolute;
+          width: 100%;
+          top: 22px;
+          z-index: 99;
+          right: 0;
+          &.korzina__modal__show {
+            visibility: visible;
+            opacity: 1;
+            transform: scale(1);
+          }
+          .korzina__modal {
+            position: absolute;
+            top: 30px;
+            right: 0;
+            background-color: #fff;
+            border-radius: 4px;
+            -webkit-box-shadow: 0 0 4px @gray;
+            box-shadow: 0 0 4px @gray;
+            z-index: 99;
+            width: 460px;
+            &::after {
+              content: ''; 
+              position: absolute;
+              right: 14px;
+              top: -20px;
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+                  transform: rotate(180deg);
+              border: 10px solid transparent;
+              border-top: 10px solid #fff;
+            }
+            .product__info {
+              padding: 20px 25px 20px 20px;
+            }
+            .korzina__title {
+              font-family: "Montserrat-Regular";
+              font-size: 16px;
+              color: #222;
+              padding: 12px 16px 7px;
+              border-bottom: 1px solid #dbdbdb;
+            }
+            .korzina__product__name {
+              font-family: 'Montserrat-Regular';
+              font-size: 16px;
+              color: @gray;
+              height: 33px;
+              padding-left: 20px;
+            }
+            .korzina__btns {
+              .korzina__cancle {
+                border-right: 1px solid #dbdbdb;
+                padding: 0 7px;
+                cursor: pointer;
+                font-family: 'Montserrat-Regular';
+                font-size: 36px;
+                color: @gray;
+                height: 16px;
+                p {
+                  margin: 0 5px 0 0;
+                  font-size: 16px !important;
+                  font-family: 'Montserrat-SemiBold';
+                  color: @gray;
+                }
+              }
+              .korzina__delete {
+                margin-left: 10px;
+                cursor: pointer;
+                padding: 4px;
+                border-radius: 4px;
+                border: 1px solid #dbdbdb;
+              }
+            }
+            .goto__btn {
+              margin: 16px;
+              .go__to__quote {
+                text-align: center;
+                font-size: 14px;
+                padding: 8.5px 0px;
+                width: 100%;
+                background: -webkit-gradient(linear,
+                left top, right top,
+                from(rgb(255, 162, 53)), color-stop(83.85%, rgb(249, 97, 47)));
+                            background: -o-linear-gradient(left,
+                rgb(255, 162, 53) 0%, rgb(249, 97, 47) 83.85%);
+                            background: linear-gradient(90deg,
+                rgb(255, 162, 53) 0%, rgb(249, 97, 47) 83.85%);
+                border-radius: 4px;
+                color: rgb(255, 255, 255);
+                font-family: 'Montserrat-SemiBold';
+                border: none;
+                transition: .3s;
+                &:focus {
+                  outline: none;
+                }
+                &:hover {
+                  -webkit-box-shadow: 0 2px 7px rgb(133, 132, 132);
+                  box-shadow: 0 2px 7px rgb(133, 132, 132);
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
   #content {
