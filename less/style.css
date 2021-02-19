@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
   background: #e8e8e8 !important;
+  overflow-x: hidden;
 }
 * {
   box-sizing: border-box;
@@ -322,6 +323,8 @@ a:hover {
 }
 #full--page .header__nav {
   padding: 12px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
 }
 #full--page .header__nav a img {
   width: 140px;
@@ -891,12 +894,10 @@ a:hover {
 #full--page #footer {
   border-top: 1px solid #d1cfcf;
   padding-bottom: 20px;
+  background-color: #fff;
 }
 #full--page #footer .footer__block {
-  padding: 40px 0 40px 20px;
-}
-#full--page #footer .footer__block:first-child {
-  padding-left: 0;
+  padding: 40px 15px 40px;
 }
 #full--page #footer .footer__block .footer__title {
   font-family: "Montserrat-Medium";
@@ -949,7 +950,7 @@ a:hover {
   margin-bottom: 0;
 }
 #full--page #footer .footer__block2 {
-  padding: 35px 0 20px 20px;
+  padding: 35px 15px 20px;
 }
 #full--page #footer .footer__block2 .d-flex {
   width: 100%;
@@ -1019,4 +1020,208 @@ a:hover {
 }
 #full--page #footer .text-right {
   padding-right: 0;
+}
+#full--page #about__us {
+  padding: 45px 0;
+  background-color: #fff;
+}
+#full--page #about__us .aboutUs__title {
+  font-size: 28px;
+  font-family: 'Montserrat-Medium';
+  color: #000000d9;
+  line-height: 29px;
+  margin-bottom: 60px;
+}
+#full--page #about__us .aboutUs__subtitle {
+  font-size: 20px;
+  font-family: 'Montserrat-SemiBold';
+  color: #000000d9;
+  line-height: 27px;
+  margin-bottom: 50px;
+}
+#full--page #about__us .aboutUs__txt {
+  font-size: 18px;
+  font-family: 'Montserrat-Regular';
+  color: #000;
+  line-height: 27px;
+}
+#full--page #about__us .aboutUs__txt span {
+  font-family: 'Montserrat-SemiBold';
+}
+#full--page #about__us .about__img {
+  max-width: 120%;
+}
+#full--page #about__us .aboutUs__num {
+  margin: 55px 20px;
+}
+#full--page #about__us .aboutUs__num h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-family: 'Montserrat-Medium';
+  color: #f9612f;
+  line-height: 15px;
+}
+#full--page #about__us .aboutUs__num span {
+  font-size: 14px;
+  font-family: 'Montserrat-Regular';
+  color: #828282;
+  line-height: 17px;
+}
+#full--page #store__events {
+  padding-bottom: 120px;
+}
+#full--page #store__events .store__title {
+  font-size: 28px;
+  font-family: 'Montserrat-Medium';
+  color: #000000d9;
+  line-height: 29px;
+  margin: 50px 0px 70px;
+}
+#full--page #store__events .store__block {
+  padding: 30px;
+  height: 506px;
+  background: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 8px;
+  border-radius: 3px;
+}
+#full--page #store__events .store__block .store__svg svg {
+  width: 90px;
+  height: 90px;
+}
+#full--page #store__events .storeBlock__title {
+  font-size: 25px;
+  font-family: 'Montserrat-Medium';
+  color: #4f4f4f;
+  line-height: 22px;
+  margin: 35px 0px 23px;
+}
+#full--page #store__events .storeBlock__txt {
+  font-size: 14px;
+  font-family: 'Montserrat-Regular';
+  color: #828282;
+  line-height: 26px;
+}
+#full--page #store__events .testimonials {
+  margin: 15px;
+}
+#full--page #store__events .testimonials .slick-slide:focus {
+  outline: none;
+}
+#full--page #store__events .testimonials .test__container {
+  background: #ffffff;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 430px;
+  transition: 0.3s;
+}
+#full--page #store__events .testimonials .test__container .col-md-12 {
+  height: 430px;
+}
+#full--page #store__events .testimonials .test__container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+#full--page #store__events .testimonials .no--pad {
+  padding: 0;
+}
+#full--page #store__events .testimonials .testimonials__txt {
+  position: relative;
+  margin-bottom: 70px;
+  font-size: 15px;
+  font-family: 'Montserrat-Regular';
+  color: #4f4f4f;
+  line-height: 25px;
+}
+#full--page #store__events .testimonials .testimonials__txt::before {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  content: "“";
+  font-size: 144px;
+  line-height: 176px;
+  color: #f2f2f2;
+}
+#full--page #store__events .testimonials .testimonials__txt::after {
+  position: absolute;
+  top: 90px;
+  right: -50px;
+  bottom: -50px;
+  content: "“";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  font-size: 144px;
+  line-height: 176px;
+  color: #f2f2f2;
+}
+#full--page #store__events .testimonials .testimonials__name {
+  text-transform: capitalize;
+  margin: 0;
+  font-size: 22px;
+  font-family: 'Montserrat-Medium';
+  color: #000;
+  line-height: 22px;
+}
+#full--page #store__events .testimonials .test__dots span:first-child {
+  font-size: 17px;
+  font-family: 'Montserrat-SemiBold';
+  color: #828282;
+  line-height: 17px;
+}
+#full--page #store__events .testimonials .test__dots span:nth-child(2) {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0 20px;
+  position: relative;
+  top: -3px;
+  left: -2px;
+}
+#full--page #store__events .testimonials .test__dots span:last-child {
+  font-size: 17px;
+  font-family: 'Montserrat-Regular';
+  color: #828282;
+  line-height: 17px;
+}
+#full--page #store__events .testimonials .testimonials__info {
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-family: 'Montserrat-Medium';
+  color: #000;
+  line-height: 22px;
+}
+#full--page #store__events .testimonials .test__info {
+  padding: 50px 8px 40px 110px;
+  flex-direction: column;
+}
+#full--page #store__events .testimonials .testArrows__right {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+#full--page #store__events .testimonials .testArrows__right svg {
+  fill: #bdbdbd;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+#full--page #store__events .testimonials .testArrows__right svg:hover {
+  fill: #828282;
+}
+#full--page #store__events .testimonials .testArrows__left {
+  position: absolute;
+  right: 80px;
+  bottom: 40px;
+  z-index: 99;
+}
+#full--page #store__events .testimonials .testArrows__left svg {
+  fill: #bdbdbd;
+  cursor: pointer;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+#full--page #store__events .testimonials .testArrows__left svg:hover {
+  fill: #828282;
 }
