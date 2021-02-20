@@ -1321,3 +1321,27 @@ a:hover {
   fill: #ffa235;
   margin-right: 10px;
 }
+#full--page #customer__service {
+  padding: 60px 0;
+}
+#full--page #customer__service .customer__header__title {
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-family: 'Montserrat-Medium';
+  color: #000000d9;
+  line-height: 29px;
+}
+#full--page #customer__service .customer__title {
+  font-size: 16px;
+  font-family: 'Montserrat-SemiBold';
+  color: rgba(0, 0, 0, 0.85);
+  line-height: 17px;
+  padding: 24px 0;
+}
+#full--page #customer__service .customer__txt {
+  font-size: 1em;
+  font-family: 'Montserrat-Regular';
+  color: rgba(0, 0, 0);
+  line-height: 24px;
+  margin-bottom: 0;
+}
