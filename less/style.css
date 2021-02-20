@@ -1225,3 +1225,99 @@ a:hover {
 #full--page #store__events .testimonials .testArrows__left svg:hover {
   fill: #828282;
 }
+#full--page #contacts {
+  padding: 55px 0;
+  background-color: #fff;
+}
+#full--page #contacts .contacts__title {
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-family: 'Montserrat-Medium';
+  color: #000;
+  line-height: 29px;
+}
+#full--page #contacts .maps {
+  height: 355px;
+}
+#full--page #contacts .maps iframe {
+  width: 100%;
+  height: 100%;
+}
+#full--page #contacts #contact__form input {
+  height: 30px;
+  padding: 0 7px;
+  font-size: 11px;
+  margin-bottom: 40px;
+}
+#full--page #contacts #contact__form input::placeholder {
+  font-size: 11px;
+}
+#full--page #contacts #contact__form .contactTextarea {
+  font-size: 11px;
+  padding: 4px 7px;
+  height: 70px;
+}
+#full--page #contacts #contact__form .contactTextarea::placeholder {
+  font-size: 11px;
+}
+#full--page #contacts #contact__form .sendFormBtn {
+  padding: 7px 35px;
+  font-size: 15px;
+  font-family: 'Montserrat-Bold';
+  line-height: 15px;
+  color: #ffffff;
+  background: #ffa235;
+  border: 2px solid #ffa235;
+  border-radius: 3px;
+  margin: 60px 0 40px;
+  transition: 0.3s;
+}
+#full--page #contacts #contact__form .sendFormBtn:hover {
+  background-color: #fff;
+  color: #f9612f;
+}
+#full--page #contacts .contact__input {
+  width: 50%;
+}
+#full--page #contacts .contact__address {
+  width: 50%;
+  margin-left: 80px;
+  padding-top: 64px;
+}
+#full--page #contacts .contact__address .contact__subtitle {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+#full--page #contacts .contact__address .contact__link {
+  font-family: "Montserrat-Regular";
+  color: #828282;
+  font-size: 13px;
+  padding-left: 3px;
+  transition: 0.2s;
+  border-left: 3px solid transparent;
+  font-size: 16px;
+}
+#full--page #contacts .contact__address .contact__link:hover {
+  font-family: "Montserrat-Bold";
+  border-left: 3px solid #f9612f;
+}
+#full--page #contacts .contact__address .contact__link .contactBold {
+  font-size: 18px;
+  font-family: 'Montserrat-Bold';
+}
+#full--page #contacts .contact__address .contact__link:hover {
+  font-family: 'Montserrat-Regular';
+}
+#full--page #contacts .contact__address .contact__link2 {
+  border: none;
+  margin-bottom: 5px;
+}
+#full--page #contacts .contact__address .contact__link2:hover {
+  border: none;
+}
+#full--page #contacts .contact__address .contact__link2 svg {
+  fill: #ffa235;
+  margin-right: 10px;
+}

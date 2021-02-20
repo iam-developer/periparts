@@ -382,6 +382,17 @@
     }
 }
 @media screen and (max-width: 576px) {
+    #full--page #contacts .contact__address {
+        margin-left: 0;
+        padding: 0 0 40px;
+        width: 100%;
+    }
+    .contact__container {
+        flex-direction: column;
+    }
+    #full--page #contacts .contact__input {
+        width: 100%;
+    }
     .aboutNums {
         justify-content: space-between !important;
         padding: 0;
