@@ -92,6 +92,9 @@
     }
 }
 @media screen and (max-width: 991px) {
+    #full--page #product .product__cont .product__title .product__num {
+        padding-top: 20px;
+    }
     .product__img {
         width: 100%;
     }
