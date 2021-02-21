@@ -102,4 +102,24 @@ $(document).ready(function() {
     }, function() {
         $(this).parent().css('border-bottom', '3px solid transparent');
     });
+
+// Страница "product.html"
+    $('.info__txt1').click(function() {
+        $('.info__txt').removeClass('activeInfo');
+        $(this).addClass('activeInfo');
+        $('.desc__content').removeClass('activeInfo');
+        $('.desc__content1').addClass('activeInfo');
+    });
+    $('.info__txt2').click(function() {
+        $('.info__txt').removeClass('activeInfo');
+        $(this).addClass('activeInfo');
+        $('.desc__content').removeClass('activeInfo');
+        $('.desc__content2').addClass('activeInfo');
+    });
+    $('.info__txt3').click(function() {
+        $('.info__txt').removeClass('activeInfo');
+        $(this).addClass('activeInfo');
+        $('.desc__content').removeClass('activeInfo');
+        $('.desc__content3').addClass('activeInfo');
+    });
 });

@@ -60,6 +60,14 @@
         max-width: 100%;
     }
 }
+@media screen and (max-width: 1200px) {
+    #full--page #product .product__cont .product__content .productBlock {
+        width: 250px;
+    }
+    #full--page #product .product__cont .product__content .product__block {
+        padding-left: 10px;
+    }
+}
 @media screen and (max-width: 1120px) {
     #full--page .header__nav .search {
         width: 400px;
@@ -84,6 +92,16 @@
     }
 }
 @media screen and (max-width: 991px) {
+    .product__img {
+        width: 100%;
+    }
+    .prod__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    #full--page #product .product__cont .product__lastCont {
+        padding: 0 0 40px;
+    }
     #full--page #store__events .testimonials .test__container img {
         height: 40vw;
         width: 100%;
@@ -478,6 +496,67 @@
     .content__btn2 {
         bottom: -40px !important;
     }
+    .product__button {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+        margin-bottom: 20px;
+        line-height: 60px;
+    }
+    #full--page #product .product__cont .product__content .product__char {
+        border: none;
+        flex-direction: column;
+    }
+    #full--page #product .product__cont .product__content .product__block {
+        padding: 24px 0 10px;
+    }
+    #full--page #product .product__cont .product__content .productBlock2 {
+        border: none;
+    }
+    #full--page #product .product__info .productInfo__header .info__txt {
+        font-size: 14px;
+        margin: 0;
+    }
+    #full--page #product .product__info {
+        padding: 0;
+    }
+    #full--page #product .product__info .productInfo__header {
+        justify-content: space-between !important;
+    }
+    #full--page #product .product__info .productInfo__header .info__txt.activeInfo {
+        border-bottom: 1px solid #828282;
+    }
+    #full--page #product .recommended__products .rec__title {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 539px) {
+    .categoryBlock  {
+        width: 170px;
+        margin: 7px;
+    }
+    .categoryBlock .product__card {
+        height: 156px;
+    }
+    .categoryBlock .product__card .productCard__num {
+        font-size: 12px;
+        width: auto;
+        padding: 0 4px;
+    }
+    .categoryBlock .productCard__name .productCard__price {
+        font-size: 14px;
+    }
+    .categoryBlock .productCard__name .productCard__txt1 {
+        font-size: 12px;
+    }
+    .categoryBlock .productCard__name .productCard__txt2 {
+        font-size: 9px;
+        margin: 0;
+    }
+    .categoryBlock .categoryBtn {
+        font-size: 14px;
+        height: 34px;
+    }
 }
 @media screen and (max-width: 450px) {
     #full--page .modalWindow .modalContent .modalTitle {
@@ -498,6 +577,15 @@
     }
     #full--page #about__us .aboutUs__num span {
         font-size: 12px ;
+    }
+    #full--page #product .product__cont .product__content .calc__btn {
+        font-size: 18px;
+    }
+    #full--page #product .product__cont .product__title {
+        padding: 0;
+    }
+    #full--page #product .product__cont .product__lastCont .product__block33 .product__title33 {
+        width: 116px;
     }
 }
 @media screen and (max-width: 400px) {
@@ -546,12 +634,46 @@
         font-size: 12px;
     }
 }
+@media screen and (max-width: 368px) {
+    .categoryBlock {
+        width: 140px;
+    }
+    .categoryBlock .product__card .productCard__header {
+        padding: 0;
+        font-size: 9px;
+    }
+    .categoryBlock .product__card .productCard__num {
+        font-size: 10px;
+    }
+    .categoryBlock .productCard__name {
+        padding: 4px;
+    }
+    .categoryBlock .product__card {
+        padding: 4px;
+    }
+    .categoryBlock .product__card {
+        height: 134px;
+    }
+    .categoryBlock .productCard__name .productCard__txt1 {
+        font-size: 10px;
+    }
+    .categoryBlock .productCard__name .productCard__price {
+        font-size: 12px;
+    }
+    .categoryBlock .categoryBtn {
+        font-size: 11px;
+        height: 28px;
+    }
+}
 @media screen and (max-width: 360px) {
     #full--page .header__nav .search .search__header {
         font-size: 12px;
     }
     #full--page .header__nav .search .search__header::placeholder {
         font-size: 12px;
+    }
+    #full--page #product .product__info .productInfo__header .info__txt {
+        padding: 10px;
     }
 }
 @media screen and (max-width: 330px) {
