@@ -122,4 +122,12 @@ $(document).ready(function() {
         $('.desc__content').removeClass('activeInfo');
         $('.desc__content3').addClass('activeInfo');
     });
+
+// Страница Quote:
+    $('.requestBtn').click(function() {
+        $('.quoteModal').addClass('showModal');
+    });
+    $('.quoteModalBtn').click(function() {
+        $('.quoteModal').removeClass('showModal');
+    });
 });

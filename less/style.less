@@ -170,6 +170,71 @@ a:hover {
   max-width: 1600px;
   width: 100%;
   margin: 0 auto;
+  .quoteModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    transform: scale(1.2);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+    &.showModal {
+      visibility: visible;
+      opacity: 1;
+      transform: scale(1);
+    }
+    .quoteContent {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 570px;
+      background: #fff;
+      border-radius: 7px;
+      z-index: 9999;
+      padding: 70px 50px 70px 50px;
+      text-align: center;
+      svg {
+        color: #52c41a;
+        font-size: 72px;
+      }
+      .quoteModalTitle {
+        font-family: 'Montserrat-Regular';
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 24px;
+        line-height: 1.8;
+        padding: 20px 0 12px;
+      }
+      .quoteModalTxt {
+        font-family: 'Montserrat-Regular';
+        color: rgba(0, 0, 0, 0.45);
+        font-size: 14px;
+        line-height: 1.6;
+        padding: 4px 27px;
+        span {
+          font-family: 'Montserrat-Bold';
+        }
+      }
+      .quoteModalBtn {
+        font-family: 'Montserrat-Regular';
+        color: #fff;
+        background-color: #828282;
+        border-radius: 4px;
+        font-size: 14px;
+        padding: 0 15px;
+        height: 32px;
+        border: none;
+        margin: 16px 0;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
   .modalWindow {
     position: fixed;
     top: 0;
@@ -533,8 +598,8 @@ a:hover {
         position: relative;
         span {
           position: absolute;
-          top: -12px;
-          right: -12px;
+          top: -10px;
+          right: -10px;
           font-size: 12px;
           color: #fff;
           padding: 0 6px;
@@ -1665,6 +1730,236 @@ a:hover {
         color: #000;
         margin: 30px;
         text-align: center;
+      }
+    }
+  }
+// Страница "Quote"
+  #quote {
+    .quote__container {
+      margin: 50px 0;
+      background: rgb(255, 255, 255);
+      border-radius: 3px;
+      box-shadow: rgb(0 0 0 / 10%) 0px 2px 8px;
+      padding: 20px 30px;
+      .quote__title {
+        margin-bottom: .5em;
+        .about__active(@lineHeight: 1.5, @color: rgba(0, 0, 0, 0.85), @fontsz: 28px, @fontFam: 'Montserrat-Medium');
+      }
+      .selectInput {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        &:checked+label::before {
+          border-color: #828282;
+          background-color: #828282;
+          background-position: center;
+          background-size: 80%;
+          background-image: url("../img/checked.svg");
+        }
+      }
+      .labelCheck {
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+        .about__active(@lineHeight: unset, @color: rgba(0, 0, 0, 0.65), @fontsz: 14px, @fontFam: 'Montserrat-Regular');
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          flex-shrink: 0;
+          flex-grow: 0;
+          border: 1px solid #adb5bd;
+          border-radius: 3px;
+          margin-right: 0.5em;
+          margin-bottom: 4px;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 50% 50%;
+          transition: .3s;
+        }
+        &:hover::before {
+          border: 1px solid #707070;
+        }
+      }
+      label {
+        width: 100%;
+      }
+      .product__field {
+        label {
+          width: auto;
+        }
+      }
+      .upload__block {
+        border: 1px dashed #fce0c1;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: border-color 0.3s;
+        padding: 16px 0;
+        position: relative;
+        &:hover {
+          border: 1px dashed #ffa235;
+        }
+        .ubload__file {
+          strong {
+            padding-left: 4px;
+            .about__active(@lineHeight: auto, @color: rgba(0, 0, 0, 0.65), @fontsz: 14px, @fontFam: 'Montserrat-Bold');
+          }
+          span {
+            .about__active(@lineHeight: auto, @color: rgba(0, 0, 0, 0.65), @fontsz: 14px, @fontFam: 'Montserrat-Regular');
+          }
+        }
+        .file__format {
+          position: absolute;
+          right: 20px;
+          bottom: 10px;
+          font-size: 0.9em;
+          color: rgb(255, 162, 53);
+        }
+      }
+      .select__all {
+        margin-top: 20px;
+        cursor: pointer;
+        width: 100px;
+      }
+      .add__product {
+        .product__field {
+          background-color: rgb(254, 255, 229);
+          border-bottom: 1px solid #e8e8e8;;
+          padding: 12px 0;
+          flex-wrap: wrap;
+          list-style: none;
+          width: 100%;
+          .product__field__item {
+            width: 50%;
+          }
+          .product__field__img {
+            padding: 0 8px;
+          }
+          .labelCheck::before {
+            margin: 0 20px 0 0;
+          }
+          .productInput {
+            .search__input;
+            height: 32px;
+            padding: 0 9px;
+            width: 100%;
+          }
+          .quote__x {
+            font-family: 'Montserrat-Regular';
+            font-size: 30px;
+            padding: 0 14px;
+            cursor: default;
+            color: @gray;
+          }
+          .productInput__num {
+            width: 60px;
+          }
+          .productInput_select {
+            width: 100%;
+            margin-left: 20px;
+          }
+          .delete__product {
+            width: 24px;
+            height: 24px;
+            font-size: 14px;
+            border-radius: 4px;
+            border: 1px solid #dbdbdb;
+            text-align: center;
+            margin: 0 20px;
+            color: rgb(173, 173, 173);
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+              border: 1px solid @gray;
+            }
+          }
+        }
+      }
+      .addProduct__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        font-family: 'Montserrat-Regular';
+        white-space: nowrap;
+        border: 1px solid transparent;
+        box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+        cursor: pointer;
+        transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+        user-select: none;
+        touch-action: manipulation;
+        height: 30px;
+        margin: 20px 0;
+        padding: 0 15px;
+        font-size: 14px;
+        border-radius: 4px;
+        color: rgba(0, 0, 0, 0.65);
+        background-color: #fff;
+        border-color: #d9d9d9;
+        &:hover {
+          border: 1px solid @gray;
+        }
+      }
+      .quote__form {
+        .quoteForm__container {
+          flex-wrap: wrap;
+          width: 100%;
+          .form__item {
+            width: 33%;
+            padding: 0 12px 30px;
+            .form__item__txt {
+              font-family: 'Montserrat-Regular';
+              font-size: 14px;
+              color: rgba(0, 0, 0, 0.85);
+              padding: 7px 0;
+              span {
+                color: red;
+                padding: 4px 5px 0 0;
+              }
+            }
+            .quoteInput {
+              .search__input;
+              height: 32px;
+            }
+          }
+        }
+        .quote__textarea {
+          .search__input;
+          width: 96%;
+          height: 90px;
+          margin: 7px 12px;
+          padding: 5px 12px;
+        }
+        .textarea__item__txt {
+          font-family: 'Montserrat-Regular';
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.85);
+          padding: 20px 12px 0;
+        }
+        .requestBtn {
+          background: rgb(255, 162, 53);
+          padding: 0 20px;
+          height: 40px;
+          font-size: 1.1em;
+          font-family: 'Montserrat-Bold';
+          border: 2px solid rgb(255, 162, 53);
+          border-radius: 4px;
+          text-shadow: none;
+          color: #fff;
+          margin: 20px 0 40px;
+          transition: .3s;
+          &:hover {
+            background-color: #fff;
+            color: #ffa235;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
       }
     }
   }

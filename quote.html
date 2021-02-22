@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css/slick-theme.css">
+    <link rel="stylesheet" href="libs/slick/slick.css/slick.css">
+    <link rel="stylesheet" href="less/style.css">
+    <link rel="stylesheet" href="less/media.css">
+    <title>Quote - PERIPARTS</title>
+</head>
+
+<body>
+    <div id="full--page">
+        <div class="modalWindow">
+            <div class="modalContent">
+                <h3 class="modalTitle">Sign in</h3>
+                <span class="closeModal">&times;</span>
+                <div class="modalField1 modalField d-flex justify-content-between align-items-center">
+                    <span class="modalInput">Email</span>
+                    <input class="search__input modalSearch" type="email" placeholder="E-mail address">
+                </div>
+                <div class="modalField d-flex justify-content-between align-items-center">
+                    <span class="modalInput">Password</span>
+                    <input class="search__input modalSearch" type="password" placeholder="Password">
+                </div>
+                <div class="modalLink d-flex justify-content-end align-items-center">
+                    <a href="#">Forgot password</a>
+                    <span>&nbsp; or &nbsp;</span>
+                    <a href="#">create new account</a>
+                </div>
+                <div class="modalBtns d-flex justify-content-end align-items-center">
+                    <button class="modalButton">Cancel</button>
+                    <button class="modalButton">Sign in</button>
+                </div>
+            </div>
+        </div>
+        <header id="header">
+            <div class="menu">
+                <div class="header__top justify-content-between align-items-center">
+                    <div class="search--extra phone col-lg-4">
+                        <a href="tel://+17187172524">+1 (718) 717-2524</a>
+                    </div>
+                    <div class="search--extra txt col-lg-4 text-center">FREE Shipping on qualified US Orders Over $999!</div>
+                    <ul class="search--extra col-lg-4 d-flex justify-content-end align-items-center">
+                        <li><a href="about.html" class="nav__menu">About us</a></li>
+                        <li><a href="contacts.html" class="nav__menu">Contact us</a></li>
+                        <li><a href="customer-service.html" class="nav__menu">Customer service</a></li>
+                        <li><a href="pay.html" class="nav__menu">Payment</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__nav d-flex justify-content-between align-items-center">
+                <div class="search--extra order--1 d-flex justify-content-between align-items-center">
+                    <div class="burger__menu">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                    </div>
+                    <a href="./" class="logo">
+                        <img src="img/logo.webp" alt="" class="img-fluid">
+                    </a>
+                    <a href="#" class="shop__categories">Shop categories
+                        <svg viewBox="0 0 1024 1024" focusable="false" class="" data-icon="caret-down" width="1em"
+                            height="1em" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="search--extra order--2">
+                    <div class="search">
+                        <input class="search__header" type="text" placeholder="Search by a part number or keyword...">
+                        <span>
+                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="search" width="1em"
+                                height="1em" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M909.6 854.5L649.9 594.8C690.2 542.7 712 479 712 412c0-80.2-31.3-155.4-87.9-212.1-56.6-56.7-132-87.9-212.1-87.9s-155.5 31.3-212.1 87.9C143.2 256.5 112 331.8 112 412c0 80.1 31.3 155.5 87.9 212.1C256.5 680.8 331.8 712 412 712c67 0 130.6-21.8 182.7-62l259.7 259.6a8.2 8.2 0 0 0 11.6 0l43.6-43.5a8.2 8.2 0 0 0 0-11.6zM570.4 570.4C528 612.7 471.8 636 412 636s-116-23.3-158.4-65.6C211.3 528 188 471.8 188 412s23.3-116.1 65.6-158.4C296 211.3 352.2 188 412 188s116.1 23.2 158.4 65.6S636 352.2 636 412s-23.3 116.1-65.6 158.4z">
+                                </path>
+                            </svg>
+                        </span>
+                    </div>
+                </div>
+                <div class="search--extra order--3">
+                    <div class="header__right d-flex align-items-center justify-content-between">
+                        <a href="#" class="sign__in d-flex align-items-center">
+                            <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="user" width="1em"
+                                height="1em" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M858.5 763.6a374 374 0 0 0-80.6-119.5 375.63 375.63 0 0 0-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 0 0-80.6 119.5A371.7 371.7 0 0 0 136 901.8a8 8 0 0 0 8 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 0 0 8-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
+                                </path>
+                            </svg>
+                            <span>Sign in</span>
+                        </a><br />
+                        <div class="header__btns">
+                            <!-- <button id="request__btn" class="header__btn">Request a Quote</button> -->
+                            <div id="quote__btn">
+                                <span>1</span>
+                                <button class="header__btn">Quote</button>
+                                <div class="korzina__container">
+                                    <div class="korzina__modal">
+                                        <h4 class="korzina__title">Recently added items</h4>
+                                        <div class="product__info d-flex justify-content-between align-items-center">
+                                        <div class="d-flex">
+                                                <div>
+                                                    <img src="img/placeholder_categoy.png" alt="" class="product__infoImg">
+                                                </div>
+                                                <div class="korzina__product__name d-flex align-items-center">
+                                                    2323 GENUINE ALLIANT P...
+                                                </div>
+                                            </div>
+                                            <div class="korzina__btns d-flex justify-content-end align-items-center">
+                                                <div class="korzina__cancle d-flex d-flex align-items-center">
+                                                    &times;&nbsp;<p>1</p>
+                                                </div>
+                                                <div class="korzina__delete d-flex align-items-center">
+                                                    <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="delete" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"></path>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="goto__btn">
+                                            <button class="go__to__quote">Go to Quote</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 1024 1024" focusable="false" class="korzina" data-icon="shopping-cart" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M922.9 701.9H327.4l29.9-60.9 496.8-.9c16.8 0 31.2-12 34.2-28.6l68.8-385.1c1.8-10.1-.9-20.5-7.5-28.4a34.99 34.99 0 0 0-26.6-12.5l-632-2.1-5.4-25.4c-3.4-16.2-18-28-34.6-28H96.5a35.3 35.3 0 1 0 0 70.6h125.9L246 312.8l58.1 281.3-74.8 122.1a34.96 34.96 0 0 0-3 36.8c6 11.9 18.1 19.4 31.5 19.4h62.8a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7h161.1a102.43 102.43 0 0 0-20.6 61.7c0 56.6 46 102.6 102.6 102.6s102.6-46 102.6-102.6c0-22.3-7.4-44-20.6-61.7H923c19.4 0 35.3-15.8 35.3-35.3a35.42 35.42 0 0 0-35.4-35.2zM305.7 253l575.8 1.9-56.4 315.8-452.3.8L305.7 253zm96.9 612.7c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6zm325.1 0c-17.4 0-31.6-14.2-31.6-31.6 0-17.4 14.2-31.6 31.6-31.6s31.6 14.2 31.6 31.6a31.6 31.6 0 0 1-31.6 31.6z"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden__menu">
+                <div class="drop__down">
+                    <div class="dropdown__menu dropdown__menu222">
+                        <a href="#" class="dropdown__link dropdown__link11">
+                            Top Selling Brands
+                        </a>
+                        <svg viewBox="64 64 896 896" focusable="false" class="dropdown__subBtn dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                        </svg>
+                    </div>
+                    <div id="dropdown__sub" class="dropdown__sub dropdown__subExtra">
+                        <div class="dropdown__sub__block">
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Construction & <br/>Industrial
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Caterpillar
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Komatsu
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Hitachi
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Volvo CE
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        JCB
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Bobcat
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Minning & Drilling
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Atlas Corco
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Sandvik
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Liebherr
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Terex
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Boart Longyear
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Gradall
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Agrycultureral & <br/>Forestry
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        CNH
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        John Deere
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Tigercat
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Buhler Versatile
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Agco
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Claas
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Gas & Oil<br/> Industry
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Waukesha
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        JSON
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Dresser-Rand
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Generac
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Arrow
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Engines &<br/> Transmissions
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Cummins
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        MTU
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Detroit diesel
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Kubota
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Perkins
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Allison
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="drop__down">
+                    <div class="dropdown__menu dropdown__menu222">
+                        <a href="#" class="dropdown__link dropdown__link22">
+                            Other Brands
+                        </a>
+                        <svg id="dropdown2" viewBox="64 64 896 896" focusable="false" class="dropdown__subBtn dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                        </svg>
+                    </div>
+                    <div id="other__sub" class="dropdown__sub dropdown__subExtra">
+                        <div class="dropdown__sub__block">
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Forklift Parts
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Manitou
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Yale
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Genie
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        JLG
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Doosan
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Top Selling Brands
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Crane Parts
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Kato
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Tadano
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Grove
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        LINK-BELT
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Broderson
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Manitowok
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Marine Parts
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Volvo Penta
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Yanmar
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        YAMAHA
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Mercury
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        OMC
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Johnsone Evinrude
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        Truck Parts
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Navistar<br/>International
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Freightliner
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Isuzu Trucks
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Mack
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Kenworth
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Volvo Trucks
+                                    </a>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="dropdown__menu">
+                                    <a href="#" class="dropdown__link">
+                                        More...
+                                    </a>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="vektor__down dropdown__arrow" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path>
+                                    </svg>
+                                </div>
+                                <div class="dropdown__sub__link">
+                                    <a href="#" class="dropdown__link2">
+                                        Denso
+                                    </a></br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Delphy
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Bosch
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        DEUTZ
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        NEXIQ
+                                    </a><br/>
+                                    <a href="#" class="dropdown__link2">
+                                        Linkcoln Industrial
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="drop__down">
+                    <div class="dropdown__menu">
+                        <a href="#" class="dropdown__link">
+                            Aftermarket Parts
+                        </a>
+                    </div>
+                </div>
+                <div class="drop__down">
+                    <div class="dropdown__menu">
+                        <a href="#" class="dropdown__link">
+                            Special offers
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="quoteModal">
+            <div class="quoteContent">
+               <svg viewBox="64 64 896 896" focusable="false" class="quoteModalIcon" data-icon="check-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm193.5 301.7l-210.6 292a31.8 31.8 0 0 1-51.7 0L318.5 484.9c-3.8-5.3 0-12.7 6.5-12.7h46.9c10.2 0 19.9 4.9 25.9 13.3l71.2 98.8 157.2-218c6-8.3 15.6-13.3 25.9-13.3H699c6.5 0 10.3 7.4 6.5 12.7z"></path>
+                </svg>
+                <div class="quoteModalTitle">Thank you for your request!</div>
+                <p class="quoteModalTxt">
+                    Your Quote Request will be reviewed shortly and a response made to the email address or phone number given.
+                </p>
+                <p class="quoteModalTxt">
+                    <span>Request ID:</span>6033-59A2-E6E9-FE0D-D36F-6CFD
+                </p>
+                <button class="quoteModalBtn">Close</button>
+            </div>
+        </div>
+        <section id="quote">
+            <div class="col-lg-9 m-auto">
+                <div class="quote__container">
+                    <h1 class="quote__title">Quote Request</h1>
+                    <input id="choose__file" type="file" style="display: none;">
+                    <label for="choose__file">
+                        <div class="upload__block">
+                            <div class="ubload__file text-center">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="file-add" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0 0 42 42h216v494zM544 472c0-4.4-3.6-8-8-8h-48c-4.4 0-8 3.6-8 8v108H372c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h108v108c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V644h108c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H544V472z"></path>
+                                    </svg>
+                                    <strong>Click or drag file to this area to upload</strong>
+                                </div>
+                                <span>Supported formats: CSV, TSV, TXT</span>
+                            </div>
+                            <a href="javascript:void(0)" class="file__format">
+                                <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="info-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M464 336a48 48 0 1 0 96 0 48 48 0 1 0-96 0zm72 112h-48c-4.4 0-8 3.6-8 8v272c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V456c0-4.4-3.6-8-8-8z"></path>
+                                </svg>
+                                <span>File format</span>
+                            </a>
+                        </div>
+                    </label>
+                    <div class="select__all d-flex justify-content-start align-items-center">
+                        <input type="checkbox" id="selectAll" class="selectInput">
+                        <label class="labelCheck" for="selectAll">Select all</label>
+                    </div>
+                    <div>
+                        <ul class="add__product">
+                            <li class="product__field d-flex justify-content-start align-items-center">
+                                <div class="product__field__item d-flex justify-content-start align-items-center">
+                                    <input type="checkbox" id="selectAll2" class="selectInput">
+                                    <label class="labelCheck" for="selectAll2"></label>
+                                    <img src="img/placeholder_category.webp" class="img-fluid product__field__img" alt="">
+                                    <input type="text" placeholder="Part number" class="productInput">
+                                    <span class="quote__x">&times;</span>
+                                    <input type="number" placeholder="1" class="productInput productInput__num">
+                                    </div>
+                                <div class="product__field__item d-flex justify-content-start align-items-center">
+                                    <select class="productInput productInput_select" name="" id="">
+                                        <option class="productInput" value="">ANY</option>
+                                        <option class="productInput" value="">GENUINE / OEM</option>
+                                    </select>
+                                    <select class="productInput productInput_select" name="" id="">
+                                        <option value="">Select Brand</option>
+                                        <option value="">AGCO</option>
+                                        <option value="">AJAX</option>
+                                        <option value="">ALLIANT POWER</option>
+                                        <option value="">ALLISON</option>
+                                        <option value="">ARROW ENGINE</option>
+                                        <option value="">BENDIX</option>
+                                        <option value="">BOART LONGYEAR</option>
+                                        <option value="">BOBCAT</option>
+                                        <option value="">BOSCH</option>
+                                        <option value="">BOSCH PEXROTH</option>
+                                        <option value="">BRODERSON BMC</option>
+                                    </select>
+                                    <span class="delete__product">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="delete" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="product__field d-flex justify-content-start align-items-center">
+                                <div class="product__field__item d-flex justify-content-start align-items-center">
+                                    <input type="checkbox" id="selectAll3" class="selectInput">
+                                    <label class="labelCheck" for="selectAll3"></label>
+                                    <img src="img/placeholder_category.webp" class="img-fluid product__field__img" alt="">
+                                    <input type="text" placeholder="Part number" class="productInput">
+                                    <span class="quote__x">&times;</span>
+                                    <input type="number" placeholder="1" class="productInput productInput__num">
+                                    </div>
+                                <div class="product__field__item d-flex justify-content-start align-items-center">
+                                    <select class="productInput productInput_select" name="" id="">
+                                        <option value="">ANY</option>
+                                        <option value="">GENUINE / OEM</option>
+                                    </select>
+                                    <select class="productInput productInput_select" name="" id="">
+                                        <option value="">Select Brand</option>
+                                        <option value="">AGCO</option>
+                                        <option value="">AJAX</option>
+                                        <option value="">ALLIANT POWER</option>
+                                        <option value="">ALLISON</option>
+                                        <option value="">ARROW ENGINE</option>
+                                        <option value="">BENDIX</option>
+                                        <option value="">BOART LONGYEAR</option>
+                                        <option value="">BOBCAT</option>
+                                        <option value="">BOSCH</option>
+                                        <option value="">BOSCH PEXROTH</option>
+                                        <option value="">BRODERSON BMC</option>
+                                    </select>
+                                    <span class="delete__product">
+                                        <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="delete" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="d-flex justify-content-end align-items-center">
+                            <div class="addProduct__btn text-right m-right">+ Add Product</div>
+                        </div>
+                    </div>
+                    <form action="" class="quote__form">
+                        <div class="d-flex justify-content-between align-items-center quoteForm__container">
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Name:
+                                </div>
+                                <input type="text" placeholder="Full name" class="quoteInput">
+                            </div>
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Email:
+                                </div>
+                                <input type="email" placeholder="Email address" class="quoteInput">
+                            </div>
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Phone:
+                                </div>
+                                <input type="tel" placeholder="Phone number" class="quoteInput">
+                            </div>
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Company:
+                                </div>
+                                <input type="text" placeholder="Company name" class="quoteInput">
+                            </div>
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Zip Code:
+                                </div>
+                                <input type="email" placeholder="Zip Code" class="quoteInput">
+                            </div>
+                            <div class="col-sm-6 col-6 form__item">
+                                <div class="form__item__txt">
+                                    <span>*</span>Country:
+                                </div>
+                                <select id="country" class="quoteInput" name="country">
+                                    <option value=""></option>
+                                    <option value="Afganistan">Afghanistan</option>
+                                    <option value="Albania">Albania</option>
+                                    <option value="Algeria">Algeria</option>
+                                    <option value="American Samoa">American Samoa</option>
+                                    <option value="Andorra">Andorra</option>
+                                    <option value="Angola">Angola</option>
+                                    <option value="Anguilla">Anguilla</option>
+                                    <option value="Antigua & Barbuda">Antigua & Barbuda</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Armenia">Armenia</option>
+                                    <option value="Aruba">Aruba</option>
+                                    <option value="Australia">Australia</option>
+                                    <option value="Austria">Austria</option>
+                                    <option value="Azerbaijan">Azerbaijan</option>
+                                    <option value="Bahamas">Bahamas</option>
+                                    <option value="Bahrain">Bahrain</option>
+                                    <option value="Bangladesh">Bangladesh</option>
+                                    <option value="Barbados">Barbados</option>
+                                    <option value="Belarus">Belarus</option>
+                                    <option value="Belgium">Belgium</option>
+                                    <option value="Belize">Belize</option>
+                                    <option value="Benin">Benin</option>
+                                    <option value="Bermuda">Bermuda</option>
+                                    <option value="Bhutan">Bhutan</option>
+                                    <option value="Bolivia">Bolivia</option>
+                                    <option value="Bonaire">Bonaire</option>
+                                    <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+                                    <option value="Botswana">Botswana</option>
+                                    <option value="Brazil">Brazil</option>
+                                    <option value="British Indian Ocean Ter">British Indian Ocean Ter</option>
+                                    <option value="Brunei">Brunei</option>
+                                    <option value="Bulgaria">Bulgaria</option>
+                                    <option value="Burkina Faso">Burkina Faso</option>
+                                    <option value="Burundi">Burundi</option>
+                                    <option value="Cambodia">Cambodia</option>
+                                    <option value="Cameroon">Cameroon</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Canary Islands">Canary Islands</option>
+                                    <option value="Cape Verde">Cape Verde</option>
+                                    <option value="Cayman Islands">Cayman Islands</option>
+                                    <option value="Central African Republic">Central African Republic</option>
+                                    <option value="Chad">Chad</option>
+                                    <option value="Channel Islands">Channel Islands</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="China">China</option>
+                                    <option value="Christmas Island">Christmas Island</option>
+                                    <option value="Cocos Island">Cocos Island</option>
+                                    <option value="Colombia">Colombia</option>
+                                    <option value="Comoros">Comoros</option>
+                                    <option value="Congo">Congo</option>
+                                    <option value="Cook Islands">Cook Islands</option>
+                                    <option value="Costa Rica">Costa Rica</option>
+                                    <option value="Cote DIvoire">Cote DIvoire</option>
+                                    <option value="Croatia">Croatia</option>
+                                    <option value="Cuba">Cuba</option>
+                                    <option value="Curaco">Curacao</option>
+                                    <option value="Cyprus">Cyprus</option>
+                                    <option value="Czech Republic">Czech Republic</option>
+                                    <option value="Denmark">Denmark</option>
+                                    <option value="Djibouti">Djibouti</option>
+                                    <option value="Dominica">Dominica</option>
+                                    <option value="Dominican Republic">Dominican Republic</option>
+                                    <option value="East Timor">East Timor</option>
+                                    <option value="Ecuador">Ecuador</option>
+                                    <option value="Egypt">Egypt</option>
+                                    <option value="El Salvador">El Salvador</option>
+                                    <option value="Equatorial Guinea">Equatorial Guinea</option>
+                                    <option value="Eritrea">Eritrea</option>
+                                    <option value="Estonia">Estonia</option>
+                                    <option value="Ethiopia">Ethiopia</option>
+                                    <option value="Falkland Islands">Falkland Islands</option>
+                                    <option value="Faroe Islands">Faroe Islands</option>
+                                    <option value="Fiji">Fiji</option>
+                                    <option value="Finland">Finland</option>
+                                    <option value="France">France</option>
+                                    <option value="French Guiana">French Guiana</option>
+                                    <option value="French Polynesia">French Polynesia</option>
+                                    <option value="French Southern Ter">French Southern Ter</option>
+                                    <option value="Gabon">Gabon</option>
+                                    <option value="Gambia">Gambia</option>
+                                    <option value="Georgia">Georgia</option>
+                                    <option value="Germany">Germany</option>
+                                    <option value="Ghana">Ghana</option>
+                                    <option value="Gibraltar">Gibraltar</option>
+                                    <option value="Great Britain">Great Britain</option>
+                                    <option value="Greece">Greece</option>
+                                    <option value="Greenland">Greenland</option>
+                                    <option value="Grenada">Grenada</option>
+                                    <option value="Guadeloupe">Guadeloupe</option>
+                                    <option value="Guam">Guam</option>
+                                    <option value="Guatemala">Guatemala</option>
+                                    <option value="Guinea">Guinea</option>
+                                    <option value="Guyana">Guyana</option>
+                                    <option value="Haiti">Haiti</option>
+                                    <option value="Hawaii">Hawaii</option>
+                                    <option value="Honduras">Honduras</option>
+                                    <option value="Hong Kong">Hong Kong</option>
+                                    <option value="Hungary">Hungary</option>
+                                    <option value="Iceland">Iceland</option>
+                                    <option value="Indonesia">Indonesia</option>
+                                    <option value="India">India</option>
+                                    <option value="Iran">Iran</option>
+                                    <option value="Iraq">Iraq</option>
+                                    <option value="Ireland">Ireland</option>
+                                    <option value="Isle of Man">Isle of Man</option>
+                                    <option value="Israel">Israel</option>
+                                    <option value="Italy">Italy</option>
+                                    <option value="Jamaica">Jamaica</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Jordan">Jordan</option>
+                                    <option value="Kazakhstan">Kazakhstan</option>
+                                    <option value="Kenya">Kenya</option>
+                                    <option value="Kiribati">Kiribati</option>
+                                    <option value="Korea North">Korea North</option>
+                                    <option value="Korea Sout">Korea South</option>
+                                    <option value="Kuwait">Kuwait</option>
+                                    <option value="Kyrgyzstan">Kyrgyzstan</option>
+                                    <option value="Laos">Laos</option>
+                                    <option value="Latvia">Latvia</option>
+                                    <option value="Lebanon">Lebanon</option>
+                                    <option value="Lesotho">Lesotho</option>
+                                    <option value="Liberia">Liberia</option>
+                                    <option value="Libya">Libya</option>
+                                    <option value="Liechtenstein">Liechtenstein</option>
+                                    <option value="Lithuania">Lithuania</option>
+                                    <option value="Luxembourg">Luxembourg</option>
+                                    <option value="Macau">Macau</option>
+                                    <option value="Macedonia">Macedonia</option>
+                                    <option value="Madagascar">Madagascar</option>
+                                    <option value="Malaysia">Malaysia</option>
+                                    <option value="Malawi">Malawi</option>
+                                    <option value="Maldives">Maldives</option>
+                                    <option value="Mali">Mali</option>
+                                    <option value="Malta">Malta</option>
+                                    <option value="Marshall Islands">Marshall Islands</option>
+                                    <option value="Martinique">Martinique</option>
+                                    <option value="Mauritania">Mauritania</option>
+                                    <option value="Mauritius">Mauritius</option>
+                                    <option value="Mayotte">Mayotte</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="Midway Islands">Midway Islands</option>
+                                    <option value="Moldova">Moldova</option>
+                                    <option value="Monaco">Monaco</option>
+                                    <option value="Mongolia">Mongolia</option>
+                                    <option value="Montserrat">Montserrat</option>
+                                    <option value="Morocco">Morocco</option>
+                                    <option value="Mozambique">Mozambique</option>
+                                    <option value="Myanmar">Myanmar</option>
+                                    <option value="Nambia">Nambia</option>
+                                    <option value="Nauru">Nauru</option>
+                                    <option value="Nepal">Nepal</option>
+                                    <option value="Netherland Antilles">Netherland Antilles</option>
+                                    <option value="Netherlands">Netherlands (Holland, Europe)</option>
+                                    <option value="Nevis">Nevis</option>
+                                    <option value="New Caledonia">New Caledonia</option>
+                                    <option value="New Zealand">New Zealand</option>
+                                    <option value="Nicaragua">Nicaragua</option>
+                                    <option value="Niger">Niger</option>
+                                    <option value="Nigeria">Nigeria</option>
+                                    <option value="Niue">Niue</option>
+                                    <option value="Norfolk Island">Norfolk Island</option>
+                                    <option value="Norway">Norway</option>
+                                    <option value="Oman">Oman</option>
+                                    <option value="Pakistan">Pakistan</option>
+                                    <option value="Palau Island">Palau Island</option>
+                                    <option value="Palestine">Palestine</option>
+                                    <option value="Panama">Panama</option>
+                                    <option value="Papua New Guinea">Papua New Guinea</option>
+                                    <option value="Paraguay">Paraguay</option>
+                                    <option value="Peru">Peru</option>
+                                    <option value="Phillipines">Philippines</option>
+                                    <option value="Pitcairn Island">Pitcairn Island</option>
+                                    <option value="Poland">Poland</option>
+                                    <option value="Portugal">Portugal</option>
+                                    <option value="Puerto Rico">Puerto Rico</option>
+                                    <option value="Qatar">Qatar</option>
+                                    <option value="Republic of Montenegro">Republic of Montenegro</option>
+                                    <option value="Republic of Serbia">Republic of Serbia</option>
+                                    <option value="Reunion">Reunion</option>
+                                    <option value="Romania">Romania</option>
+                                    <option value="Russia">Russia</option>
+                                    <option value="Rwanda">Rwanda</option>
+                                    <option value="St Barthelemy">St Barthelemy</option>
+                                    <option value="St Eustatius">St Eustatius</option>
+                                    <option value="St Helena">St Helena</option>
+                                    <option value="St Kitts-Nevis">St Kitts-Nevis</option>
+                                    <option value="St Lucia">St Lucia</option>
+                                    <option value="St Maarten">St Maarten</option>
+                                    <option value="St Pierre & Miquelon">St Pierre & Miquelon</option>
+                                    <option value="St Vincent & Grenadines">St Vincent & Grenadines</option>
+                                    <option value="Saipan">Saipan</option>
+                                    <option value="Samoa">Samoa</option>
+                                    <option value="Samoa American">Samoa American</option>
+                                    <option value="San Marino">San Marino</option>
+                                    <option value="Sao Tome & Principe">Sao Tome & Principe</option>
+                                    <option value="Saudi Arabia">Saudi Arabia</option>
+                                    <option value="Senegal">Senegal</option>
+                                    <option value="Seychelles">Seychelles</option>
+                                    <option value="Sierra Leone">Sierra Leone</option>
+                                    <option value="Singapore">Singapore</option>
+                                    <option value="Slovakia">Slovakia</option>
+                                    <option value="Slovenia">Slovenia</option>
+                                    <option value="Solomon Islands">Solomon Islands</option>
+                                    <option value="Somalia">Somalia</option>
+                                    <option value="South Africa">South Africa</option>
+                                    <option value="Spain">Spain</option>
+                                    <option value="Sri Lanka">Sri Lanka</option>
+                                    <option value="Sudan">Sudan</option>
+                                    <option value="Suriname">Suriname</option>
+                                    <option value="Swaziland">Swaziland</option>
+                                    <option value="Sweden">Sweden</option>
+                                    <option value="Switzerland">Switzerland</option>
+                                    <option value="Syria">Syria</option>
+                                    <option value="Tahiti">Tahiti</option>
+                                    <option value="Taiwan">Taiwan</option>
+                                    <option value="Tajikistan">Tajikistan</option>
+                                    <option value="Tanzania">Tanzania</option>
+                                    <option value="Thailand">Thailand</option>
+                                    <option value="Togo">Togo</option>
+                                    <option value="Tokelau">Tokelau</option>
+                                    <option value="Tonga">Tonga</option>
+                                    <option value="Trinidad & Tobago">Trinidad & Tobago</option>
+                                    <option value="Tunisia">Tunisia</option>
+                                    <option value="Turkey">Turkey</option>
+                                    <option value="Turkmenistan">Turkmenistan</option>
+                                    <option value="Turks & Caicos Is">Turks & Caicos Is</option>
+                                    <option value="Tuvalu">Tuvalu</option>
+                                    <option value="Uganda">Uganda</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Ukraine">Ukraine</option>
+                                    <option value="United Arab Erimates">United Arab Emirates</option>
+                                    <option value="United States of America">United States of America</option>
+                                    <option value="Uraguay">Uruguay</option>
+                                    <option value="Uzbekistan">Uzbekistan</option>
+                                    <option value="Vanuatu">Vanuatu</option>
+                                    <option value="Vatican City State">Vatican City State</option>
+                                    <option value="Venezuela">Venezuela</option>
+                                    <option value="Vietnam">Vietnam</option>
+                                    <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+                                    <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
+                                    <option value="Wake Island">Wake Island</option>
+                                    <option value="Wallis & Futana Is">Wallis & Futana Is</option>
+                                    <option value="Yemen">Yemen</option>
+                                    <option value="Zaire">Zaire</option>
+                                    <option value="Zambia">Zambia</option>
+                                    <option value="Zimbabwe">Zimbabwe</option>
+                                 </select>
+                            </div>
+                        </div>
+                        <div class="form__item">
+                            <div class="textarea__item__txt">
+                                Notes:
+                            </div>
+                            <textarea class="quote__textarea" name="" id="" placeholder="Part numbers, additional information..."></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="requestBtn">Request prices</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="container">
+                <div class="row justify-content-between align-items-start">
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 footer__block">
+                        <h2 class="footer__title">About</h2>
+                        <p class="footer__txt">
+                            PERIPARTS store is the leading online retailer in machinery parts industry. Not only do we
+                            provide top quality Genuine,
+                            OEM and Aftermarket parts & equipment, but we give our customers an excellent online
+                            shopping experience
+                        </p>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 footer__block">
+                        <h2 class="footer__title">Company</h2>
+                        <div class="footer__links">
+                            <a href="#" class="footer__link">Top selling brands</a><br />
+                            <a href="#" class="footer__link">Aftermarket parts</a><br />
+                            <a href="#" class="footer__link">Other brands</a><br />
+                            <a href="#" class="footer__link">Special offers</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 footer__block">
+                        <h2 class="footer__title">Information</h2>
+                        <div class="footer__links">
+                            <a href="about.html" class="footer__link">About us</a><br />
+                            <a href="contacts.html" class="footer__link">Contact us</a><br />
+                            <a href="customer-service.html" class="footer__link">Customer service</a><br />
+                            <a href="pay.html" class="footer__link">Payment</a><br/>
+                            <a href="#" class="footer__link">Privacy policy</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 col-12 footer__block">
+                        <h2 class="footer__title">Store</h2>
+                        <div class="footer__links">
+                            <div href="#" class="d-flex footer__link footer__link2 footer__link3">
+                                <span>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="environment"
+                                        width="1em" height="1em" aria-hidden="true">
+                                        <path
+                                            d="M512 327c-29.9 0-58 11.6-79.2 32.8A111.6 111.6 0 0 0 400 439c0 29.9 11.7 58 32.8 79.2A111.6 111.6 0 0 0 512 551c29.9 0 58-11.7 79.2-32.8C612.4 497 624 468.9 624 439c0-29.9-11.6-58-32.8-79.2S541.9 327 512 327zm342.6-37.9a362.49 362.49 0 0 0-79.9-115.7 370.83 370.83 0 0 0-118.2-77.8C610.7 76.6 562.1 67 512 67c-50.1 0-98.7 9.6-144.5 28.5-44.3 18.3-84 44.5-118.2 77.8A363.6 363.6 0 0 0 169.4 289c-19.5 45-29.4 92.8-29.4 142 0 70.6 16.9 140.9 50.1 208.7 26.7 54.5 64 107.6 111 158.1 80.3 86.2 164.5 138.9 188.4 153a43.9 43.9 0 0 0 22.4 6.1c7.8 0 15.5-2 22.4-6.1 23.9-14.1 108.1-66.8 188.4-153 47-50.4 84.3-103.6 111-158.1C867.1 572 884 501.8 884 431.1c0-49.2-9.9-97-29.4-142zM512 615c-97.2 0-176-78.8-176-176s78.8-176 176-176 176 78.8 176 176-78.8 176-176 176z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                PeriParts<br />155 48th Street<br />Brooklyn, NY, 11232
+                            </div>
+                            <a href="contacts.html" class="d-flex footer__link footer__link2">
+                                <span>
+                                    <svg viewBox="64 64 896 896" focusable="false" class=""
+                                        style="-ms-transform:rotate(90deg);transform:rotate(90deg)" data-icon="phone"
+                                        width="1em" height="1em" aria-hidden="true">
+                                        <path
+                                            d="M885.6 230.2L779.1 123.8a80.83 80.83 0 0 0-57.3-23.8c-21.7 0-42.1 8.5-57.4 23.8L549.8 238.4a80.83 80.83 0 0 0-23.8 57.3c0 21.7 8.5 42.1 23.8 57.4l83.8 83.8A393.82 393.82 0 0 1 553.1 553 395.34 395.34 0 0 1 437 633.8L353.2 550a80.83 80.83 0 0 0-57.3-23.8c-21.7 0-42.1 8.5-57.4 23.8L123.8 664.5a80.89 80.89 0 0 0-23.8 57.4c0 21.7 8.5 42.1 23.8 57.4l106.3 106.3c24.4 24.5 58.1 38.4 92.7 38.4 7.3 0 14.3-.6 21.2-1.8 134.8-22.2 268.5-93.9 376.4-201.7C828.2 612.8 899.8 479.2 922.3 344c6.8-41.3-6.9-83.8-36.7-113.8z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                Contact us</a>
+                            <a href="customer-service.html" class="d-flex footer__link footer__link2">
+                                <span>
+                                    <svg viewBox="64 64 896 896" focusable="false" class="" data-icon="mail" width="1em"
+                                        height="1em" aria-hidden="true">
+                                        <path
+                                            d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 0 1 194 256h648.8a7.2 7.2 0 0 1 4.4 12.9z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                Customer service
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12 footer__block footer__block2">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h2 class="footer__title footer__title2">Follow us</h2>
+                            <span>
+                                <a href="#"><svg class="icon__svg" viewBox="0 0 1024 1024" width="1em" height="1em"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M1024 512C1024 229.236 794.764 0 512 0S0 229.236 0 512s229.236 512 512 512 512-229.236 512-512zm-977.455 0C46.545 254.93 254.93 46.545 512 46.545c257.07 0 465.455 208.384 465.455 465.455 0 257.07-208.384 465.455-465.455 465.455C254.93 977.455 46.545 769.07 46.545 512z"
+                                            ></path>
+                                        <path
+                                            d="M531.642 807.517V512h97.513l15.406-97.932H531.642v-49.105c0-25.554 8.378-49.943 45.056-49.943h73.31v-97.746H545.931c-87.506 0-111.384 57.623-111.384 137.495v59.253h-60.043V512h60.043v295.517h97.094z"
+                                            ></path>
+                                    </svg></a>
+                                <a href="#"><svg class="icon__svg" viewBox="0 0 1024 1024" width="1em" height="1em"
+                                        aria-hidden="true" focusable="false">
+                                        <path
+                                            d="M731.555 410.205c0-5.166-.093-10.286-.326-15.36 22.11-16.477 41.286-37.097 56.46-60.695-20.294 9.123-42.077 15.22-64.978 17.78 23.366-14.382 41.286-37.376 49.757-64.977-21.876 13.265-46.08 22.76-71.82 27.694-20.619-23.459-50.036-38.4-82.57-38.958-62.465-1.024-113.106 51.758-113.106 117.9 0 9.402.977 18.524 2.932 27.322-94.068-6.051-177.431-55.017-233.193-128.838-9.728 17.687-15.313 38.353-15.313 60.509 0 41.89 19.968 79.127 50.315 101.097-18.571-.838-35.98-6.47-51.246-15.686v1.536c0 58.554 39.005 107.613 90.764 119.063-9.496 2.7-19.503 4.096-29.79 4.05a103.402 103.402 0 01-21.27-2.328c14.382 47.989 56.18 83.037 105.657 84.2-38.725 32.117-87.505 51.294-140.474 51.154a215.57 215.57 0 01-26.996-1.722c50.083 34.35 109.521 54.365 173.428 54.365 208.012.047 321.769-181.015 321.769-338.106z"
+                                            ></path>
+                                        <path
+                                            d="M1024 512C1024 229.236 794.764 0 512 0S0 229.236 0 512s229.236 512 512 512 512-229.236 512-512zm-977.455 0C46.545 254.93 254.93 46.545 512 46.545c257.07 0 465.455 208.384 465.455 465.455 0 257.07-208.384 465.455-465.455 465.455C254.93 977.455 46.545 769.07 46.545 512z"
+                                            ></path>
+                                    </svg></a>
+                                <a href="#">
+                                    <svg class="icon__svg" width="1em" height="1em" aria-hidden="true" focusable="false" class=""><path fill="none" d="M-1-1h37v37H-1z"></path><g><path stroke="null" d="M17.528 1.792c8.647 0 15.682 7.047 15.682 15.708s-7.034 15.708-15.682 15.708S1.845 26.16 1.845 17.5 8.88 1.792 17.528 1.792m0-1.745C7.904.047.102 7.861.102 17.5c0 9.64 7.802 17.453 17.426 17.453 9.622 0 17.425-7.813 17.425-17.453S27.15.047 17.528.047h0z"></path><path stroke="null" fill-rule="evenodd" d="M11.128 8.706h12.745c1.209 0 2.2 1.016 2.2 2.258v13.072c0 1.242-.991 2.258-2.2 2.258H11.128c-1.21 0-2.2-1.016-2.2-2.258V10.964c0-1.242.99-2.258 2.2-2.258h0zm10.29 1.954a.784.784 0 00-.772.792v1.896c0 .435.347.79.772.79h1.938c.424 0 .77-.355.77-.79v-1.896a.784.784 0 00-.77-.792h-1.938 0zm2.717 5.484h-1.51c.144.478.22.984.22 1.51 0 2.925-2.386 5.296-5.327 5.296-2.944 0-5.331-2.37-5.331-5.296 0-.526.078-1.032.22-1.51h-1.574v7.43c0 .384.305.699.681.699h11.94c.373 0 .68-.315.68-.7v-7.43h0zm-6.617-2.104c-1.904 0-3.445 1.532-3.445 3.422 0 1.891 1.541 3.424 3.445 3.424 1.9 0 3.441-1.533 3.441-3.424 0-1.89-1.54-3.422-3.441-3.422z" clip-rule="evenodd"></path></g>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                        <h3 class="footer__subtitle"> Sign up for our newsletter</h3>
+                        <p class="footer__txt">to stay up to date on our promotion, discount, sales special offers and more.</p>
+                        <div class="footer__input">
+                            <input type="text" placeholder="Email" class="search__input" value="">
+                            <span>
+                                <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class=""><path fill-rule="evenodd" clip-rule="evenodd" d="M6.757.697L11.53 5.47a.75.75 0 010 1.06l-4.773 4.773a.75.75 0 01-1.06-1.06l.078-.079c1.26-1.26.368-3.414-1.414-3.414H.75a.75.75 0 110-1.5h3.61c1.783 0 2.675-2.154 1.415-3.414l-.078-.079a.75.75 0 011.06-1.06z" fill="#fff"></path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="col-lg-9 col-8 no--pad">
+                        <p class="last__footer__txt">
+                            © 2021 PERIPARTS. All Rights Reserved. All manufacturers' names, numbers, symbols and descriptions are for reference only.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-4 text-right">
+                        <a href="./"><img src="img/logo.webp" class="footer__logo" alt="footer logo"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="libs/jquery/3.5.0/jquery.js"></script>
+    <script src="libs/slick/slick.js/slick.min.js"></script>
+    <script src="libs/less.js/4.1.1/less.js"></script>
+    <script src="libs/main.js"></script>
+</body>
+
+</html>

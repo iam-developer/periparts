@@ -303,6 +303,16 @@
     }
 }
 @media screen and (max-width: 767px) {
+    #full--page #quote .quote__container .add__product .product__field {
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+    #full--page #quote .quote__container .add__product .product__field .product__field__item {
+        width: 100%;
+    }
+    #full--page #quote .quote__container .add__product .product__field .productInput_select {
+        margin-left: 0;
+    }
     .slide__img {
         width: 60%;
         margin: 0 auto;
@@ -400,6 +410,10 @@
     #full--page .modalWindow .modalContent {
         width: 420px;
         padding: 22px;
+    }
+    #full--page .quoteModal .quoteContent {
+        width: 400px;
+        padding: 30px 10px;
     }
 }
 @media screen and (max-width: 576px) {
@@ -590,6 +604,54 @@
     #full--page #product .product__cont .product__lastCont .product__block33 .product__title33 {
         width: 116px;
     }
+    #full--page #quote .quote__container .product__field label {
+        width: 10px;
+    }
+    #full--page #quote .quote__container .add__product .product__field .quote__x {
+        padding: 0 7px;
+    }
+    #full--page #quote .quote__container {
+        padding: 16px 7px;
+    }
+    #full--page #quote .quote__container .upload__block .file__format {
+        bottom: 4px;
+    }
+    #full--page #quote .quote__container .upload__block {
+        padding: 30px 0;
+    }
+    #full--page #quote .quote__container .add__product .product__field .delete__product {
+        margin: 0 7px;
+    }
+    #full--page #quote .quote__container .add__product .product__field .productInput {
+        height: 28px;
+    }
+    #full--page #quote .quote__container .add__product .product__field .delete__product {
+        height: auto;
+        padding: 0 3px;
+    }
+    #full--page #quote .quote__container .quote__form .quoteForm__container .form__item {
+        padding: 0 4px 30px;
+    }
+    #full--page #quote .quote__container .quote__form .quote__textarea {
+        margin: 7px;
+    }
+    #full--page .quoteModal .quoteContent {
+        width: 310px;
+        padding: 30px 5px 20px;
+    }
+    #full--page .quoteModal .quoteContent svg {
+        font-size: 40px;
+    }
+    #full--page .quoteModal .quoteContent .quoteModalTitle {
+        font-size: 20px;
+        padding: 10px 0 0;
+    }
+    #full--page .quoteModal .quoteContent .quoteModalTxt {
+        font-size: 12px;
+    }
+    #full--page .quoteModal .quoteContent .quoteModalTxt span {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 400px) {
     #full--page #categories .categories__container .categories__block .catgories__block__title {
@@ -635,6 +697,15 @@
     #full--page #store__events .testimonials .testimonials__txt,
     #full--page #store__events .testimonials .testimonials__info, #full--page #store__events .testimonials .testimonials__name {
         font-size: 12px;
+    }
+    #full--page #quote .quote__container .upload__block .ubload__file strong {
+        font-size: 12px;
+    }
+    #full--page #quote .quote__container .upload__block .ubload__file span {
+        font-size: 12px;
+    }
+    #full--page #quote .quote__container .upload__block .file__format {
+        font-size: 0.7em;
     }
 }
 @media screen and (max-width: 368px) {
