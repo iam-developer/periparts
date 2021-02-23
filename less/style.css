@@ -1210,6 +1210,7 @@ a:hover {
 }
 #full--page #store__events {
   padding-bottom: 120px;
+  background: #f0f0f0;
 }
 #full--page #store__events .store__title {
   font-size: 28px;
@@ -1464,6 +1465,7 @@ a:hover {
 }
 #full--page #customer__service {
   padding: 60px 0;
+  background: #f0f0f0;
 }
 #full--page #customer__service .customer__header__title {
   margin-bottom: 40px;
@@ -1488,6 +1490,7 @@ a:hover {
 }
 #full--page #payment {
   padding: 30px 0;
+  background: #f0f0f0;
 }
 #full--page #payment .payment__container {
   background: #ffffff;
