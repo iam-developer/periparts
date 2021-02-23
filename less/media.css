@@ -455,6 +455,11 @@
         width: 400px;
         padding: 30px 10px;
     }
+    #modalBlockLink {
+        flex-direction: column;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
+    }
 }
 @media screen and (max-width: 576px) {
     .pay__last__txt {
