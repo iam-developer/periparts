@@ -121,6 +121,11 @@
     .catalog__accordeon {
         display: none;
     }
+    #search .catalog__accordeon {
+        display: block !important;
+        margin: 10px;
+        width: -webkit-fill-available !important;
+    }
     #full--page #catalog .catalog__container .catalog__accordeon .catalog__item {
         width: 100%;
     }
@@ -583,6 +588,9 @@
     }
 }
 @media screen and (max-width: 539px) {
+    #full--page #catalog .catalog__container .catalog__products .xs__num {
+        font-size: 16px !important;
+    }
     .categoryBlock  {
         width: 170px;
         margin: 7px;
@@ -615,6 +623,9 @@
     #full--page #catalog .catalog__container .cataog__title {
         font-size: 17px;
         margin-left: 10px !important;
+    }
+    #full--page #catalog .catalog__container #search__title .cataog__title {
+        font-size: 24px;
     }
     #full--page #catalog .catalog__container .catalog__accordeon.activeAcc {
         margin: 10px;

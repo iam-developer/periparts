@@ -2257,6 +2257,15 @@ a:hover {
 #full--page #catalog .catalog__container .catalog__products .categoryBlock .product__card .productCard__num {
   bottom: -24px;
 }
+#full--page #catalog .catalog__container .catalog__products .categoryBlock .product__card .productCard__num span {
+  background-color: #ffff00;
+}
+#full--page #catalog .catalog__container .catalog__products .xs__num {
+  font-size: 20px !important;
+  width: auto;
+  padding: 0 6px;
+  bottom: -33px !important;
+}
 #full--page #catalog .catalog__container .catalog__products .categoryBlock .productCard__name {
   margin: 30px 0 12px;
 }
@@ -2292,4 +2301,51 @@ a:hover {
 #full--page #catalog .catalog__container .catalog__products .nextBtn:hover {
   background-color: #fff;
   color: #ffa235;
+}
+#full--page #search .search__pages {
+  margin: 30px 0;
+}
+#full--page #search .search__pages li {
+  list-style: none;
+}
+#full--page #search .search__pages li a {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 14px;
+  color: #ffa235;
+  background-color: #fff;
+  border: 2px solid #ffa235;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 7px;
+}
+#full--page #search .search__pages li a.active {
+  background-color: #ffa235;
+  color: #fff;
+}
+#full--page #search .search__pages li .ppp {
+  padding: 5px 12px;
+}
+#full--page #search .search__pages li .dotsss {
+  color: rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 20px;
+  background: transparent;
+  padding: 5px;
+}
+#full--page #search .search__pages li .dotsss .next {
+  display: none;
+  margin-right: 7px;
+  width: 20px;
+  text-align: center;
+}
+#full--page #search .search__pages li .dotsss .dot1 {
+  display: block;
+  margin-right: 7px;
+  width: 20px;
+}
+#full--page #search .search__pages li .dotsss:hover .dot1 {
+  display: none;
+}
+#full--page #search .search__pages li .dotsss:hover .next {
+  display: block;
 }
